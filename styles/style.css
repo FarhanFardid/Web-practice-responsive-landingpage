@@ -2,8 +2,9 @@
 /* banner section players styles */
 main{
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-color: azure;
+    flex-direction: column;
 }
 .banner{
     background-color: white;
@@ -69,4 +70,21 @@ hr{
 .author{
     padding-left: 5px;
     text-decoration: none;
+}
+
+.courses{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.course{
+    width: 253px;
+    height: 270px;
+}
+.course_img img{
+    width: 224px;
+    height: 104px;
+}
+.c-author{
+    margin-top:20px ;
 }
